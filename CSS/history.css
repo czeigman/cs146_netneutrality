@@ -11,3 +11,11 @@ nav ul li{
 nav ul li #cur-pg{
 	background-color: #993d00;
 }
+#history_text{
+  width: 65%;
+  margin: auto;
+}
+p{
+  text-indent: 50px;
+}
+
