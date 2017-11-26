@@ -8,6 +8,12 @@ nav ul li{
 	background-color: #ff6600;
 	color: white;
 }
+nav ul li:hover{
+	background-color: orange;
+}
+nav ul li a{
+	text-decoration: none;
+}
 nav ul li #cur-pg{
 	background-color: #993d00;
 }
@@ -15,8 +21,10 @@ h1{
 	text-align: 65%;
 }
 #content{
-	text-align: center;
-	width: 65%;
+	width: 1000px;
+	color: white;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,.6);
 }
 #links{
 	border-width: 1px;
@@ -26,4 +34,34 @@ h1{
 }
 #links img{
 	width: 25%;
+}
+body {
+	background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rWTERSESipmu22cf/server-room-led-lights-are-flashing-technology-background_blegolfd-x_thumbnail-full01.png);
+	background-size: 100%, 100%;
+	background-attachment: fixed;
+	font-family: verdana;
+}
+/*Rules for tablet*/
+@media only screen and (max-width: 1000px){
+	nav ul li{
+		display: inline-flex;
+		flex-wrap: wrap;
+		margin-top: 10px;
+	}
+	#content{
+		width: 100%;
+		justify-content: center;
+	}
+	p{
+		text-align: center;
+	}
+}
+/*Rules for phones*/
+@media only screen and (max-width: 500px){
+	#content{
+		line-height: 1.5;
+	}
+	body{
+		background-image: linear-gradient(lightgray,darkgray);
+	}
 }
