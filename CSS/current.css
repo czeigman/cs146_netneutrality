@@ -10,4 +10,52 @@ nav ul li{
 }
 nav ul li #cur-pg{
 	background-color: #993d00;
+
 }
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: rebeccapurple;
+}
+
+a:active {
+  color: teal;
+}
+body{
+	font-family:Georgia,"Times New Roman",serif;
+	background-image:url(http://images.dailytech.com/nimage/12217_large_neutral-bits.png);
+	background-size:100%,100%;
+	text-decoration-color: blue;
+}
+content{
+	margin-left:auto;
+	margin-right:auto;
+	color:blue;
+}
+@media only screen and(min-width:400px) and (max-width:799px){
+	nav ul li{
+	display: inline-flex;
+	padding: 5px;
+	color: blue;
+	margin-top:10px;
+	}
+	p{
+		text-align: center;
+		font-size:80%;
+		color: dimgray;
+	}
+}
+@media only screen and (max-width:399px){
+	body{
+		margin-top:15px;
+		margin-left: :15px;
+		margin-right: :15px;
+		margin-bottom: :15px;
+		line-height:1.4;
+		text-align:justify;
+	}
+}
+
